@@ -26,16 +26,16 @@ Follow the instructions below to install Kubernetes and set up a cluster for you
 To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
 This comprehensive documentation will walk you through the process of configuring a cluster with a single master node and one worker node.
 
-- prerequisites
-- Across both K8smaster and K8sworker:
-- firewall settings
-- swap service setting
-- SELinux Setting
-- adjustments to sysctl settings
-- Install & Deploy Docker engine
-- Setting up a Kubernetes environment
-- Join the cluster
-- Verifying the cluster
+1. prerequisites
+2. Across both K8smaster and K8sworker:
+3. firewall settings
+4. swap service setting
+5. SELinux Setting
+6. adjustments to sysctl settings
+7. Install & Deploy Docker engine
+8. Setting up a Kubernetes environment
+9. Join the cluster
+10. Verifying the cluster
 
 ## Cluster Setup
 Follow the instructions in the `cluster_setup.md` file to create a Kubernetes cluster after completing the installation steps. This will guide you through the process of configuring your cluster and setting up the necessary components.
