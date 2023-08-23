@@ -1,6 +1,9 @@
 <p align="center">
 <img src="https://www.authelia.com/images/logos/haproxy.png" height="150" style="margin-right: 10px;">
-<img src="https://github.com/netdata/netdata/blob/941fff633212dc0034a08148622fd0e4023f07e2/web/gui/v2/static/img/logos/os/kubernetes.svg" height="75" style="margin-right: 10px;"></p>
+<img src="https://github.com/netdata/netdata/blob/941fff633212dc0034a08148622fd0e4023f07e2/web/gui/v2/static/img/logos/os/kubernetes.svg" height="75" style="margin-right: 10px;">
+<img src="https://img.shields.io/github/stars/stanford-crfm/helm.svg" height="150" style="margin-right: 10px;">
+    
+</p>
 
 ## Quick Reference for Let's Encrypt Cert-Manager
 
