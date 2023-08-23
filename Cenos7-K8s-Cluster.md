@@ -6,28 +6,28 @@ To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
 This comprehensive documentation will walk you through the process of configuring
 a cluster with a single master node and one worker node.
 
-## prerequisites
+## prerequisites:
 |Role|FQDN|IP|OS|RAM|CPU|
 |----|----|----|----|----|----|
 |Master|kmaster.example.com|172.16.16.100|CentOS 7|2G|2|
 |Worker|kworker.example.com|172.16.16.101|CentOS 7|1G|1|
 
-## On both Kmaster and Kworker
-Perform all the commands as root user unless otherwise specified
-##### Disable Firewall
+## Across both Kmaster and Kworker:
+Execute all the commands as the root user, unless otherwise indicated.
+##### Turn off firewall
 ```
 systemctl disable firewalld; systemctl stop firewalld
 ```
-##### Disable swap
+##### Turn off swap
 ```
 swapoff -a; sed -i '/swap/d' /etc/fstab
 ```
-##### Disable SELinux
+##### Turn off SELinux
 ```
 setenforce 0
 sed -i --follow-symlinks 's/^SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
 ```
-##### Update sysctl settings for Kubernetes networking
+##### Make adjustments to sysctl settings for Kubernetes networking
 ```
 cat >>/etc/sysctl.d/kubernetes.conf<<EOF
 net.bridge.bridge-nf-call-ip6tables = 1
@@ -35,15 +35,15 @@ net.bridge.bridge-nf-call-iptables = 1
 EOF
 sysctl --system
 ```
-##### Install docker engine
+##### Install & Deploy Docker engine
 ```
 yum install -y yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum install -y docker-ce-19.03.12 
 systemctl enable --now docker
 ```
-### Kubernetes Setup
-##### Add yum repository
+### Setting up a Kubernetes environment
+#####  involves adding a yum repository
 ```
 cat >>/etc/yum.repos.d/kubernetes.repo<<EOF
 [kubernetes]
@@ -56,7 +56,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
         https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOF
 ```
-##### Install Kubernetes components
+##### Install the various components of Kubernetes
 ```
 yum install -y kubeadm-1.18.5-0 kubelet-1.18.5-0 kubectl-1.18.5-0
 ```
