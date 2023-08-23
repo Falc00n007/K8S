@@ -30,3 +30,31 @@ List worker nodes
 ```
 kubectl get nodes --selector='!node-role.kubernetes.io/master'
 ```
+The **"Kubectl get nodes"** command provides essential information, including historical deployment data. For instance,
+if you encounter a rolling upgrade with twenty images on your node, you can access this information from the time 
+series that spans five months. Additionally, it furnishes details about your services' state such as node selector 
+and active endpoints, which can be incredibly useful for debugging purposes, enabling you to identify the cause when
+things don't go as expected.
+
+**Here are examples of what you can obtain using the command:**
+
+# The node’s name:
+- The name of the node, displayed as the "Name" field in the node list and output when specifying the "--output" flag.
+
+# The node’s annotations:
+- Annotations associated with the node, which offer documentation specific to that node. If you're familiar with the 
+**"kubectl edit"** command, you'll find it easy to apply annotations. 
+Using **"kubectl get nodes,"** you can view the annotations applied to nodes in your cluster.
+
+# The node’s labels:
+- Labels assigned to the node, listed under **"Labels."** You can also filter nodes based on a specific label by
+running **"kubectl get nodes --label=<label>."**
+
+# The health of a node:
+- The node's health, which is crucial to determine if it has been unhealthy for a specified period. To check the 
+node's health, execute the following command. If you receive a **"Status:"** value of **"Up,"** it indicates that
+everything is functioning properly.
+
+```
+kubectl get nodes -o=custom-columns=NAME:.metadata.name,STATUS:.status | grep Up
+```
