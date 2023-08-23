@@ -1,3 +1,5 @@
+<img src="https://www.authelia.com/images/logos/haproxy.png" height="50"/>
+
 ## Quick Reference for Let's Encrypt Cert-Manager
 
 #### Haproxy Configuration
