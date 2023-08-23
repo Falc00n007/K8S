@@ -1,4 +1,5 @@
 <img src="https://www.authelia.com/images/logos/haproxy.png" height="150"/>
+<img src="https://github.com/netdata/netdata/blob/941fff633212dc0034a08148622fd0e4023f07e2/web/gui/v2/static/img/logos/os/kubernetes.svg" height="35"/>
 
 ## Quick Reference for Let's Encrypt Cert-Manager
 
