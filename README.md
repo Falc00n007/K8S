@@ -3,7 +3,9 @@
 # Kubernetes and Cluster setup on Ubuntu 20.04 and CentOS 8
 
 ## Overview
-This repository contains instructions and scripts for setting up Kubernetes and creating a cluster on Ubuntu 20.04 and CentOS 8. These instructions will guide you through the process step-by-step, making it easy for you to deploy and manage containerized applications.
+This repository contains instructions and scripts for setting up Kubernetes and creating a cluster on Ubuntu 20.04 and CentOS 8.
+These instructions will guide you through the process step-by-step, making it easy for you to deploy and manage containerized
+applications.
 
 ## Prerequisites
 Before proceeding with the installation, ensure that you have the following prerequisites:
@@ -16,9 +18,9 @@ Before proceeding with the installation, ensure that you have the following prer
 Follow the instructions below to install Kubernetes and set up a cluster for your environment.
 
 ### Ubuntu 20.04
-To set up a Kubernetes cluster on Ubuntu 20.04, adhere to the following guidelines.
-This comprehensive documentation will walk you through the process of configuring
-a cluster with a single master node and one worker node.
+To set up a Kubernetes cluster on Ubuntu 20.04, adhere to the following guidelines. This comprehensive documentation will
+walk you through the process of configuring a cluster with a single master node and one worker node.
+
 please read and follow **Ubuntu-20.04-k8s-cluster.md** file.
 
 1. prerequisites
@@ -33,9 +35,9 @@ please read and follow **Ubuntu-20.04-k8s-cluster.md** file.
 10. Verifying the cluster
 
 ### CentOS 8
-To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
-This comprehensive documentation will walk you through the process of configuring
-a cluster with a single master node and one worker node.
+To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines. This comprehensive documentation will
+walk you through the process of configuring a cluster with a single master node and one worker node.
+
 please read and follow **Cenos7-K8s-Cluster.md** file.
 
 1. prerequisites
