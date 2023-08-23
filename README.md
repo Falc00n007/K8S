@@ -15,12 +15,17 @@ Before proceeding with the installation, ensure that you have the following prer
 Follow the instructions below to install Kubernetes and set up a cluster for your environment.
 
 ### Ubuntu 20.04
-1. Clone or download this repository to your local machine.
-2. Navigate to the `ubuntu-20.04` directory in the repository.
-3. Open the `kubernetes_setup.sh` file and review the configuration options.
-4. Execute the script by running `sudo ./kubernetes_setup.sh`.
-5. Follow any on-screen prompts to complete the installation.
-6. To create a cluster, please see the `cluster_setup.md` file in the repository.
+
+1. prerequisites
+2. Across both K8smaster and K8sworker:
+3. firewall settings
+4. swap service setting
+5. SELinux Setting
+6. adjustments to sysctl settings
+7. Install & Deploy Docker engine
+8. Setting up a Kubernetes environment
+9. Join the cluster
+10. Verifying the cluster
 
 ### CentOS 8
 To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
