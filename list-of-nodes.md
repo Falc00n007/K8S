@@ -48,7 +48,7 @@ Using **"kubectl get nodes,"** you can view the annotations applied to nodes in 
 
 # The node’s labels:
 - Labels assigned to the node, listed under **"Labels."** You can also filter nodes based on a specific label by
-running **"kubectl get nodes --label=<label>."**
+running **"kubectl get nodes** **--label=<label>."**
 
 # The health of a node:
 - The node's health, which is crucial to determine if it has been unhealthy for a specified period. To check the 
