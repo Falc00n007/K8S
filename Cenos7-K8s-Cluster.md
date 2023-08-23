@@ -98,5 +98,4 @@ kubectl get nodes
 ```
 kubectl get cs
 ```
-
-Have Fun!!
+Enjoy yourself!!
