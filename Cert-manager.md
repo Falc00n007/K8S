@@ -1,4 +1,4 @@
-<img src="https://www.authelia.com/images/logos/haproxy.png" height="50"/>
+<img src="https://www.authelia.com/images/logos/haproxy.png" height="150"/>
 
 ## Quick Reference for Let's Encrypt Cert-Manager
 
