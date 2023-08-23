@@ -1,6 +1,5 @@
-# K8S
 
-# README - Kubernetes and Cluster setup on Ubuntu 20.04 and CentOS 8
+# Kubernetes and Cluster setup on Ubuntu 20.04 and CentOS 8
 
 ## Overview
 This repository contains instructions and scripts for setting up Kubernetes and creating a cluster on Ubuntu 20.04 and CentOS 8. These instructions will guide you through the process step-by-step, making it easy for you to deploy and manage containerized applications.
