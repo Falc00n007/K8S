@@ -58,3 +58,36 @@ everything is functioning properly.
 ```
 kubectl get nodes -o=custom-columns=NAME:.metadata.name,STATUS:.status | grep Up
 ```
+
+
+# The IP address of the nodes:
+
+To determine the IP addresses assigned to your nodes, you can utilize the **"kubectl get nodes"** command.
+Follow the given command:
+
+```
+kubectl get nodes -o=custom-columns=NAME:,IP
+```
+
+# Where is "kubectl get nodes" not applicable?
+
+***"Kubectl get nodes"** is a command used to fetch information from a local Kubernetes cluster.
+It provides details of all the pods, deployments, services, and ReplicationControllers. However,
+it cannot be used to access resources from remote clusters, it only provides information about
+containers on the local machine.
+
+Additionally, **"kubectl get nodes"** cannot be used to specifically retrieve a certain pod within
+the cluster. The command's output categorizes pods under Labels and Compute Resources, organized by namespace.
+
+# Summary:
+
+By running the **"kubectl get nodes"** command, you can gather information about the connected nodes in your
+cluster. It allows you to assess their health, applied labels, and uptime duration. This command provides a
+comprehensive overview of all running services, highlighting any resource-intensive or redundant ones.
+It is recommended to periodically check this command (at least once every few weeks) to ensure the smooth
+functioning of your cluster.
+
+The popularity of Kubernetes has led to the creation of several powerful tools that seamlessly integrate 
+with the platform. One such tool is Loft, a control plane that enhances existing clusters by leveraging 
+the **self-service capabilities** of the platform. Loft facilitates **multi-tenancy** and effectively manages
+various aspects of your cluster.
