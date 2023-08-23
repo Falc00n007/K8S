@@ -7,8 +7,8 @@ To set up a Kubernetes cluster on __Ubuntu 20.04 LTS__, adhere to the following 
 ## Assumptions
 |Role|FQDN|IP|OS|RAM|CPU|
 |----|----|----|----|----|----|
-|Master|kmaster.example.com|172.16.16.100|Ubuntu 20.04|2G|2|
-|Worker|kworker.example.com|172.16.16.101|Ubuntu 20.04|1G|1|
+|Master|k8smaster.example.com|172.16.16.100|Ubuntu 20.04|2G|2|
+|Worker|k8sworker.example.com|172.16.16.101|Ubuntu 20.04|1G|1|
 
 ## On both Kmaster and Kworker
 ##### Login as `root` user
