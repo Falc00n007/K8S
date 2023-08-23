@@ -30,7 +30,9 @@ Follow the instructions below to install Kubernetes and set up a cluster for you
 
 ### CentOS 8
 To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
-This comprehensive documentation will walk you through the process of configuring a cluster with a single master node and one worker node.
+This comprehensive documentation will walk you through the process of configuring
+a cluster with a single master node and one worker node.
+please read and follow ___Cenos7-K8s-Cluster.md ___
 
 1. prerequisites
 2. Across both K8smaster and K8sworker:
