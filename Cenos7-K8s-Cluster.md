@@ -9,8 +9,8 @@ a cluster with a single master node and one worker node.
 ## prerequisites:
 |Role|FQDN|IP|OS|RAM|CPU|
 |----|----|----|----|----|----|
-|Master|kmaster.example.com|172.16.16.100|CentOS 7|2G|2|
-|Worker|kworker.example.com|172.16.16.101|CentOS 7|1G|1|
+|Master|k8smaster.example.com|172.16.16.100|CentOS 7|2G|2|
+|Worker|k8sworker.example.com|172.16.16.101|CentOS 7|1G|1|
 
 ## Across both Kmaster and Kworker:
 Execute all the commands as the root user, unless otherwise indicated.
