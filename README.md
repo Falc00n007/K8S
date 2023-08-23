@@ -1,4 +1,4 @@
-
+<img src="https://kubernetes.io/images/nav_logo2.svg" width="210" style="margin-right: 10px;">
 # Kubernetes and Cluster setup on Ubuntu 20.04 and CentOS 8
 
 ## Overview
