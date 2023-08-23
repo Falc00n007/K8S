@@ -16,6 +16,10 @@ Before proceeding with the installation, ensure that you have the following prer
 Follow the instructions below to install Kubernetes and set up a cluster for your environment.
 
 ### Ubuntu 20.04
+To set up a Kubernetes cluster on Ubuntu 20.04, adhere to the following guidelines.
+This comprehensive documentation will walk you through the process of configuring
+a cluster with a single master node and one worker node.
+please read and follow **Ubuntu-20.04-k8s-cluster.md** file.
 
 1. prerequisites
 2. Across both K8smaster and K8sworker:
@@ -32,7 +36,7 @@ Follow the instructions below to install Kubernetes and set up a cluster for you
 To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
 This comprehensive documentation will walk you through the process of configuring
 a cluster with a single master node and one worker node.
-please read and follow ___Cenos7-K8s-Cluster.md ___
+please read and follow **Cenos7-K8s-Cluster.md** file.
 
 1. prerequisites
 2. Across both K8smaster and K8sworker:
