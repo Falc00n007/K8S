@@ -1,3 +1,5 @@
+<img src="https://kubernetes.io/images/nav_logo2.svg" width="210" style="margin-right: 10px;">
+
 ## Upon its initial release, Kubernetes lacked a vital element:
 A means to identify the operational servers. This created an array of challenges within the community, 
 encompassing the inability to allocate applications to specific nodes and prevent resource overflow onto other nodes.
