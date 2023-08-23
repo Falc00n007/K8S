@@ -1,3 +1,6 @@
+<p align="center"> 
+
+<img src="https://kubernetes.io/images/nav_logo2.svg" width="210" style="margin-right: 10px;"></p>
 # Install Kubernetes Cluster using kubeadm
 Follow this documentation to set up a Kubernetes cluster on __CentOS 7__.
 
