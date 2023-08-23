@@ -1,9 +1,8 @@
 <img align="center" src="https://kubernetes.io/images/nav_logo2.svg" width="210" style="margin-right: 10px;">
 
 # Install Kubernetes Cluster using kubeadm
-Follow this documentation to set up a Kubernetes cluster on __Ubuntu 20.04 LTS__.
+To set up a Kubernetes cluster on __Ubuntu 20.04 LTS__, adhere to the following guidelines. This comprehensive documentation will walk you through the process of configuring a cluster with a single master node and one worker node.
 
-This documentation guides you in setting up a cluster with one master node and one worker node.
 
 ## Assumptions
 |Role|FQDN|IP|OS|RAM|CPU|
