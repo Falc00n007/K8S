@@ -6,7 +6,7 @@ To set up a Kubernetes cluster on CentOS 7, adhere to the following guidelines.
 This comprehensive documentation will walk you through the process of configuring
 a cluster with a single master node and one worker node.
 
-## Assumptions
+## prerequisites
 |Role|FQDN|IP|OS|RAM|CPU|
 |----|----|----|----|----|----|
 |Master|kmaster.example.com|172.16.16.100|CentOS 7|2G|2|
